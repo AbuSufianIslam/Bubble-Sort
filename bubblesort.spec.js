@@ -1,6 +1,9 @@
 describe('Bubble Sort', function(){
     let arr = [5, 11, 3, 7, 2]
     let returnedArr = [2, 3, 5, 7, 11]
+    // beforeEach(() => {
+    //     spyOn(swap, 'swap').and.callThrough();
+    //   });
     it('handles an empty array', function(){
       expect( bubbleSort([]) ).toEqual( [] );
     });
